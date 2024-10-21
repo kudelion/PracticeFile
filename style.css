@@ -1,0 +1,52 @@
+*{
+    /* background-color: aqua; */
+}
+
+.navbar-list{
+    border-style: solid;
+    border-color: brown;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-list li{
+    border-style: solid;
+    border-color: green;
+
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+
+    width: max-content;
+}
+
+.project-columns{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 800px;
+    border: 10px solid firebrick;
+}
+
+.project-columns .card{
+    background-color: greenyellow;
+
+    flex: 1;
+    /* CONTENT OF flex  */
+    /* 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; 
+    */
+}
+
+.card:nth-child(2){
+    background-color: yellow;
+}
